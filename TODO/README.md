@@ -7,7 +7,7 @@ worklist, benchmarked against the FRELUX production standard
 **How to use this:** work top to bottom. Phase 1 items are security-critical.
 Do not deploy to production until every Phase 1 item is checked off.
 
-Audit date: 2026-09-06 · Items: 21 + live-site checklist (pending URL)
+Live URL: https://frenzy-interiors-bus-y8wf.bolt.host · Audit date: 2026-09-06 · Items: 21 + 4 critical live findings
 
 | Phase | File | Focus | Status |
 |-------|------|-------|--------|
@@ -15,7 +15,7 @@ Audit date: 2026-09-06 · Items: 21 + live-site checklist (pending URL)
 | 2 — CI/CD & Quality | [02-cicd-quality.md](./02-cicd-quality.md) | CI, tests, lint, license, README fix | ☐ Not started |
 | 3 — Resilience & UX | [03-resilience-ux.md](./03-resilience-ux.md) | Error boundaries, image optimization, form validation | ☐ Not started |
 | 4 — SEO & Deployment | [04-seo-deployment.md](./04-seo-deployment.md) | Hardcoded domain, deploy config conflicts, PWA, breadcrumbs | ☐ Not started |
-| 5 — Live-site audit | [05-live-site-audit.md](./05-live-site-audit.md) | Filled in after live URL review (breadcrumbs, 404, parity with Frelux) | ⏳ Awaiting live URL |
+| 5 — Live-site audit | [05-live-site-audit.md](./05-live-site-audit.md) | **4 CRITICAL live findings**: canonical/sitemap/robots point to a dead domain; admin shell served to anonymous users | 🔴 First pass done — fixes pending |
 | 6 — Database | [06-database.md](./06-database.md) | Migration verification in CI, ledger discipline | ☐ Not started |
 
 Run `npm run todo` to print this index from the terminal.
