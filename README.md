@@ -1,4 +1,10 @@
-# Frenzy Interiors
+# 🚧 Frenzy Interiors
+
+> **⚠️ NOT PRODUCTION-READY — see [`TODO/`](./TODO/README.md) before doing anything else.**
+> The full prioritized worklist (security-critical items first) lives in the
+> [`TODO/`](./TODO/README.md) folder. Run `npm run todo` to print it.
+> Do not deploy to production until Phase 1 (security-critical) items are done.
+
 
 Premium interior decoration, painting services, wall finishes, and furniture solutions in Nigeria.
 
